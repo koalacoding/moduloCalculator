@@ -23,8 +23,51 @@ body {
 #header {
 	min-height: 14vh;
 	width: 100%;
+	margin-bottom: 25vh;
 
 	box-shadow: rgba(0, 0, 0, 0.247059) 0px 0px 5px 0px;
 
 	line-height: 14vh;
 }
+
+
+/*------------------------------------
+--------------------------------------
+-----------------CORE-----------------
+--------------------------------------
+------------------------------------*/
+
+#core span {
+	opacity: 0.75;
+}
+
+#core span, input {
+	font-size: 8vh;
+	font-weight: 400;	
+}
+
+	/*----------------
+	-------INPUT------
+	----------------*/
+
+	input {
+		height: 9vh;
+		/*min-width: 4vw;*/
+		margin: 1%;
+		padding: 1%;
+
+		box-shadow: rgba(0, 0, 0, 0.121569) 0px 0px 6px 0px inset;
+		border: 1px solid rgb(204, 204, 204);
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+
+		text-align: center;
+	}
+
+	/*-----------------
+	-------RESULT------
+	-----------------*/
+
+	#result {
+		opacity: 1 !important;
+	}
