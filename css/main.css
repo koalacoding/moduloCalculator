@@ -6,6 +6,7 @@
 
 body {
 	margin: 0 auto;
+	text-align: center;
 
 	background: #F8F8F8;
 
@@ -43,7 +44,7 @@ body {
 
 #core span, input {
 	font-size: 8vh;
-	font-weight: 400;	
+	font-weight: 400;
 }
 
 	/*----------------
